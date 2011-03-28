@@ -1,5 +1,7 @@
 Manifest
+README
 Rakefile
+bin/estore
 config.ru
 lib/estore.rb
 lib/estore/base.rb

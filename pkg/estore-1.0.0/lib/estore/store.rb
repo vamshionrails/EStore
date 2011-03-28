@@ -12,7 +12,7 @@ module EStore
     
     format :json
     def self.all(opts = {})
-      res = get "http://localhost:9393/stores".to_json
+      res = get "/stores.json"
       res.ok? ? res.collect{|i| Store.new(i)} : res
     end
   end

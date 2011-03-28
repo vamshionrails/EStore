@@ -7,12 +7,14 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Vamshi"]
   s.date = %q{2011-03-28}
+  s.default_executable = %q{estore}
   s.description = %q{EStore Gem}
   s.email = %q{vamshionrails@gmail.com}
-  s.extra_rdoc_files = ["lib/estore.rb", "lib/estore/base.rb", "lib/estore/httparty.rb", "lib/estore/store.rb", "lib/service/stores.rb"]
-  s.files = ["Manifest", "Rakefile", "config.ru", "lib/estore.rb", "lib/estore/base.rb", "lib/estore/httparty.rb", "lib/estore/store.rb", "lib/service/stores.rb", "estore.gemspec"]
+  s.executables = ["estore"]
+  s.extra_rdoc_files = ["README", "bin/estore", "lib/estore.rb", "lib/estore/base.rb", "lib/estore/httparty.rb", "lib/estore/store.rb", "lib/service/stores.rb"]
+  s.files = ["Manifest", "README", "Rakefile", "bin/estore", "config.ru", "lib/estore.rb", "lib/estore/base.rb", "lib/estore/httparty.rb", "lib/estore/store.rb", "lib/service/stores.rb", "estore.gemspec"]
   s.homepage = %q{http://github.com/vamshionrails/estore}
-  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Estore"]
+  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Estore", "--main", "README"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{estore}
   s.rubygems_version = %q{1.3.7}

@@ -7,7 +7,7 @@ module EStore
   }  
   class Base 
     include HTTParty
-    base_uri "http://localhost:9393"
+    base_uri "http://localhost:5678"
     headers STOREHEADERS
     format :json 
     
