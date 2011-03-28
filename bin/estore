@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+  # /estore
+require File.expand_path(File.dirname(__FILE__) + '../../lib/estore.rb')
+require "vegas"
+Vegas::Runner.new(EStore, 'estore')

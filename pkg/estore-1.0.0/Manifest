@@ -1,0 +1,8 @@
+Manifest
+Rakefile
+config.ru
+lib/estore.rb
+lib/estore/base.rb
+lib/estore/httparty.rb
+lib/estore/store.rb
+lib/service/stores.rb
